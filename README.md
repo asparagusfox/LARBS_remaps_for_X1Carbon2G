@@ -12,3 +12,9 @@ For those without Caps Lock: A small shell script that emulates LARBS remapping 
 - xorg-xset
 - xorg-xmodmap
 - xcape
+
+## Usage
+
+If using LARBS, replace the remaps script within `$HOME/.local/bin`.
+
+Default LARBS has this script run on X session start. Edit `$HOME/.xprofile` to change this behaviour.
