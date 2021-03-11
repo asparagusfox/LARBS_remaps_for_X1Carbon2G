@@ -1,6 +1,6 @@
-# LARBS_remaps_for_X1Carbon2G
+# useful_remaps_for_X1Carbon2G
 
-For those without Caps Lock: A small shell script that emulates LARBS remapping for the Lenovo Thinkpad X1 Carbon 2nd Gen.
+Shell script for vim friendly remapping on the Lenovo Thinkpad X1 Carbon 2nd Gen.
 
 ## What it Does
 - Increase key speed via a rate change
@@ -15,6 +15,8 @@ For those without Caps Lock: A small shell script that emulates LARBS remapping 
 
 ## Usage
 
-If using LARBS, replace the remaps script within `$HOME/.local/bin`.
+For easy usage add to `$PATH`.
 
-Default LARBS has this script run on X session start. Edit `$HOME/.xprofile` to change this behaviour.
+Easy way to run this script on X session start: Append filename to `$HOME/.xprofile`.
+
+If using Lukesmithxyz's LARBS, replace the remaps script within `$HOME/.local/bin`, this will run after `startx` is called.
