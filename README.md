@@ -19,4 +19,4 @@ For easy usage add to `$PATH`.
 
 Easy way to run this script on X session start: Append filename to `$HOME/.xprofile`.
 
-If using Lukesmithxyz's LARBS, replace the remaps script within `$HOME/.local/bin`, this will run after `startx` is called.
+If using Lukesmithxyz's LARBS, replace the remaps script within `$HOME/.local/bin`, this will run the script after using the`startx` command.
