@@ -4,6 +4,7 @@ Shell script for vim friendly (swap caps and esc) remapping on the Lenovo Thinkp
 
 ## What it Does
 - Increase key speed via a rate change
+- Makes Shift-Esc ~
 - Swaps left super and end key
 - When end is pressed once it is treated as escape
 - When super is held it acts as super, when pressed once it acts as end
