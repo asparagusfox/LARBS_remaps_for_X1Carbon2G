@@ -3,7 +3,7 @@
 Shell script for vim friendly (swap caps and esc) remapping on the Lenovo Thinkpad X1 Carbon 2nd Gen. For some reason this laptop has a weird placement of the home and end keys, where caps lock should usually be! The new "esc" key will act as super when pressed once.
 
 ## What it Does
-- Increase key speed via a rate change
+- Increase autorepeat speed
 - Makes Shift-Esc ~
 - Swaps left super and end key
 - When end is pressed once it is treated as escape

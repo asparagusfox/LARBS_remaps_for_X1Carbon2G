@@ -2,7 +2,7 @@
 
 # This script emulates remaps for ThinkPad X1 carbon 2nd gen
 
-# Increase key speed via a rate change
+# Increase autorepeat speed
 xset r rate 300 50
 
 # Map shift-esc to ~
