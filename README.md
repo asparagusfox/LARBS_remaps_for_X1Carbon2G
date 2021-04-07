@@ -6,9 +6,9 @@ This laptop has a weird keyboard layout!
 ## What it Does
 - Increase autorepeat speed
 - Makes Shift-Esc ~
-- Swaps left super and end key (Easier access)
-- When end is pressed once it is treated as escape (For Vim)
-- When (physical key) super is held it acts as super, when pressed once it acts as end
+- End becomes Super (Easier access)
+- When End is pressed once it is treated as Escape (For Vim)
+- (Physical) Super becomes End
 
 Hopefully this makes sense!
 
