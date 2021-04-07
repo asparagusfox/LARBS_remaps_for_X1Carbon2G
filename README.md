@@ -1,13 +1,17 @@
 # useful_remaps_for_X1Carbon2G
 
-Shell script for vim friendly (swap caps and esc) remapping on the Lenovo Thinkpad X1 Carbon 2nd Gen. For some reason this laptop has a weird placement of the home and end keys, where caps lock should usually be! The new "esc" key will act as super when pressed once.
+Script to remap some keys to make the ThinkPad X1 Carbon (Second Generation) easier to use, especially for Vim.
+
+This laptop has a weird keyboard layout!
 
 ## What it Does
 - Increase autorepeat speed
 - Makes Shift-Esc ~
-- Swaps left super and end key
-- When end is pressed once it is treated as escape
-- When super is held it acts as super, when pressed once it acts as end
+- Swaps left super and end key (Easier access)
+- When end is pressed once it is treated as escape (For Vim)
+- When (physical key) super is held it acts as super, when pressed once it acts as end
+
+Hopefully this makes sense!
 
 ## Dependencies
 - xorg-xset
@@ -16,8 +20,4 @@ Shell script for vim friendly (swap caps and esc) remapping on the Lenovo Thinkp
 
 ## Usage
 
-For easy usage add to `$PATH`.
-
-Easy way to run this script on X session start: Append filename to `$HOME/.xprofile`.
-
-If using Lukesmithxyz's LARBS, replace the remaps script within `$HOME/.local/bin`, this will run the script after using the`startx` command.
+Run this script upon starting X by adding it to `.xinitrc` or `.xprofile`.
