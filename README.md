@@ -1,7 +1,6 @@
 # useful_remaps_for_X1Carbon2G
 
-Script to remap some keys to make the ThinkPad X1 Carbon (Second Generation) easier to use, especially for Vim.
-
+Remap keys to make the ThinkPad X1 Carbon (Second Generation) easier to use, especially for Vim.
 This laptop has a weird keyboard layout!
 
 ## What it Does
